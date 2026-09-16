@@ -1,0 +1,21 @@
+/*
+ * LeetCode #1 - Two Sum
+ *
+ * Approach: Brute Force
+ * Time Complexity: O(n²)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        for(int i=0; i<nums.length; i++){
+            for(int j=i+1; j<nums.length; j++){
+                int sum = nums[i] + nums[j];
+                if(sum == target){
+                    return new int[] {i,j};
+                }
+            }
+        }
+        return new int[] {};
+    }
+}
