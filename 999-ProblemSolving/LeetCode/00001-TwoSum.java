@@ -1,5 +1,6 @@
 /*
  * LeetCode #1 - Two Sum
+ * Solved on: January 02, 2026
  *
  * Approach: Brute Force
  * Time Complexity: O(n²)
