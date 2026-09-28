@@ -1,7 +1,7 @@
 /*
  * LeetCode #852 - Peak Index in a Mountain Array
  *
- * Approach 1: Binary Search
+ * Approach: Binary Search
  * Solved on: September 28, 2026
  * Time Complexity: O(log n)
  * Space Complexity: O(1)
